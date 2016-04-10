@@ -88,6 +88,7 @@ GEM
     puma (3.4.0)
     rack (2.0.0.alpha)
       json
+    rack-cors (0.4.0)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails-deprecated_sanitizer (1.0.3)
@@ -124,6 +125,7 @@ DEPENDENCIES
   active_model_serializers
   byebug
   puma
+  rack-cors
   rails!
   redis (~> 3.0)
   spring
